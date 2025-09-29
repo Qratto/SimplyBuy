@@ -25,7 +25,7 @@ docker-compose up
 
 2. Откройте папку xampp (которую вы установили) перейдите в папку htdocs и переместите туда папку с проектом project и переименуйте его в project.loc
 
-3.Вернитесь в корневую папку xampp и перейдите по пути \xampp\apache\conf\extra откройте файл httpd-vhosts.conf, в конце файла напишите: <br/>
+3.Вернитесь в корневую папку xampp и перейдите по пути \xampp\apache\conf\extra откройте файл httpd-vhosts.conf, в конце файла напишите(диск D необходимо сменить на тот диск где у вас установлена папка Xampp): <br/>
 ```
 <VirtualHost *:80> 
     ##ServerAdmin webmaster@dummy-host2.example.com 
